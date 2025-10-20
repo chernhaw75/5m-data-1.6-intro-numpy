@@ -15,6 +15,7 @@ Given the following numpy array:
 ```python
 import numpy as np
 arr = np.array([1, 2, 3, 4, 5])
+print(arr)
 ```
 
 Write a Python code to multiply each element in the array by 2.
@@ -24,6 +25,7 @@ Answer:
 ```python
 
 arr = arr*2
+print(arr)
 ```
 
 ### Question 2
@@ -33,6 +35,7 @@ Given the following 2D numpy array:
 ```python
 import numpy as np
 arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(arr)
 ```
 
 Write a Python code to select the second row of the array.
@@ -42,6 +45,7 @@ Answer:
 ```python
 
 second_row = arr[1]
+print(second_row)
 
 ```
 
