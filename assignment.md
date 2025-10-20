@@ -13,6 +13,7 @@ Paste the answer as Python in the answer code section below each question.
 Given the following numpy array:
 
 ```python
+import numpy as np
 arr = np.array([1, 2, 3, 4, 5])
 ```
 
@@ -22,6 +23,7 @@ Answer:
 
 ```python
 
+arr = arr*2
 ```
 
 ### Question 2
@@ -29,6 +31,7 @@ Answer:
 Given the following 2D numpy array:
 
 ```python
+import numpy as np
 arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 ```
 
@@ -37,6 +40,8 @@ Write a Python code to select the second row of the array.
 Answer:
 
 ```python
+
+second_row = arr[1]
 
 ```
 
@@ -47,6 +52,9 @@ Create a 2D numpy array of shape (5, 5) filled with the number 1.
 Answer:
 
 ```python
+import numpy as np
+array_5x5 = np.ones((5,5))
+print(array_5x5)
 
 ```
 
@@ -55,6 +63,7 @@ Answer:
 Given the following 2D numpy array:
 
 ```python
+import numpy as np
 arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 ```
 
@@ -63,6 +72,10 @@ Write a Python code to calculate the sum of all the elements in each row.
 Answer:
 
 ```python
+import numpy as np
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+row_sums = np.sum(arr, axis=1)
+print(row_sums)
 
 ```
 
@@ -71,6 +84,7 @@ Answer:
 Given the following 2D numpy array:
 
 ```python
+import numpy as np
 arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 ```
 
@@ -79,7 +93,8 @@ Write a Python code to calculate the average of all the elements.
 Answer:
 
 ```python
-
+import numpy as np
+mean = np.mean(arr)
 ```
 
 ## Submission
